@@ -1,0 +1,70 @@
+import { StyleSheet } from "react-native";
+
+const estilo = StyleSheet.create({
+    container:{
+        flex:1,
+        justifyContent:"center",
+        alignItems:"center",
+    },
+    icone:{
+            color:"#FFF",
+            alignItems:"center",
+            backgroundColor:"rgba(255,255,255,0.1)",
+            borderRightWidth:1,
+            borderRightColor:"rgba(0,0,0,0.15)",
+            textAlign:"center",
+            textAlignVertical:"center",
+            width:40,
+            height:"100%",
+            borderBottomLeftRadius:10,
+            borderTopLeftRadius:10,
+            borderTopWidth:1,
+            borderTopColor:"rgba(0,0,0,0.15)",
+            borderLeftWidth:1,
+            borderLeftColor:"rgba(0,0,0,0.15)",
+            borderBottomWidth:2,
+            borderBottomColor:"rgba(0,0,0,0.15)"
+    },
+    textoLogin:{
+        letterSpacing:5,
+        fontSize:40,
+        fontWeight:"bold"
+    },
+    entradaDeTexto:{
+        width:"100%",
+        height:"100%",
+        textAlign:"center",
+        borderTopRightRadius:10,
+        borderBottomRightRadius:10,
+        marginVertical:20,
+        borderTopWidth:1,
+        borderTopColor:"rgba(0,0,0,0.15)",
+        /*borderLeftWidth:1,
+        borderLeftColor:"rgba(0,0,0,0.15)",*/
+        borderBottomWidth:2,
+        borderBottomColor:"rgba(0,0,0,0.15)",
+        borderRightWidth:2,
+        borderRightColor:"rgba(0,0,0,0.15)",
+        height:40,
+        backgroundColor:"rgba(34,255,255,0.1)"
+
+    },
+    botaoEntrar:{
+        width:"60%",
+        minHeight:50,
+        backgroundColor:"rgba(0,0,0,0.3)",
+        borderRadius:10,
+        paddingVertical:10,
+        marginVertical:20
+    },
+    textoBotao:{
+        fontSize:30,
+        fontWeight:"bold",
+        letterSpacing:5,
+        textTransform:"uppercase",
+        color:"white",
+        textAlign:"center"
+    }
+});
+
+export default estilo;

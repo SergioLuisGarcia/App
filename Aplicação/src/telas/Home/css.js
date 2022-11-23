@@ -1,0 +1,133 @@
+import { StyleSheet } from "react-native";
+
+const select = (selecionado)=> {
+       return selecionado ? "none":"flex"
+}
+    
+
+const estilo = StyleSheet.create({
+    container:{
+      width:"100%",
+      height:"100%",
+    },
+    imageBackInfo:{
+        width:"100%",
+        minHeight:30,
+        flexDirection:"row",
+        justifyContent: "space-around",
+        alignItems:"center"
+    },
+    userInfo:{
+        width:"90%",
+        top:70,
+        marginHorizontal:"5%",
+        marginVertical:10,
+        borderRadius:15,
+        backgroundColor:"rgba(239,244,232,0.30)",
+        borderTopWidth:1,
+        borderTopColor:"rgba(0,0,0,0.05)",
+        borderLeftWidth:1,
+        borderLeftColor:"rgba(0,0,0,0.05)",
+        borderBottomWidth:3,
+        borderBottomColor:"rgba(0,0,0,0.05)",
+        borderRightWidth:3,
+        borderRightColor:"rgba(0,0,0,0.05)",
+        height:"22%",
+        alignItems:"center",
+        flexDirection:"row",
+        justifyContent:"space-around"
+    },
+    imageInfo:{
+        width:100,
+        height:100,
+        borderRadius:20,
+        borderWidth:5,
+    },
+    nomeInfo:{
+        fontSize:40,
+        fontWeight:"bold",
+        color:"black"
+    },
+    acessoInfo:{
+        fontSize:20,
+        color:"white"
+    },
+    listContainer:{
+        marginTop:100,
+        width:"90%",
+        height: "50%",
+        marginHorizontal:"5%",
+        marginVertical:10,
+        paddingHorizontal:5,
+        paddingVertical:5,
+        borderRadius:10,
+        backgroundColor:"rgba(239,244,244,0.15)",
+        borderTopWidth:1,
+        borderTopColor:"rgba(0,0,0,0.05)",
+        borderLeftWidth:1,
+        borderLeftColor:"rgba(0,0,0,0.05)",
+        borderBottomWidth:3,
+        borderBottomColor:"rgba(0,0,0,0.05)",
+        borderRightWidth:3,
+        borderRightColor:"rgba(0,0,0,0.05)",
+    },
+    itemContainer:{
+        width:"100%",
+        flexDirection:"row",
+        justifyContent:"space-between",
+        height:100,
+        borderBottomColor:"black",
+        backgroundColor:"rgba(224,224,224,0.25)",
+        borderLeftWidth:1,
+        borderTopColor:"rgba(32,12,23,0.05)",
+        borderTopWidth:1,
+        borderLeftColor:"rgba(32,12,23,0.05)",
+        borderRightColor:"rgba(32,12,23,0.05)",
+        borderRightWidth:2,
+        borderBottomColor:"rgba(32,12,23,0.05)",
+        borderBottomWidth:2,
+        borderRadius:10,
+        marginVertical:10,
+        alignItems:"center",
+    },
+    itemInfo:{
+        flexDirection:"row",
+        width:"50%",
+        height:"100%",
+        alignItems:"center"
+    },
+    listImage:{
+        width:50,
+        height:50,
+        marginLeft:20,
+        borderRadius:100
+    },
+    textContainer:{
+       marginLeft:15,
+       justifyContent:"space-evenly",
+       height:"80%" 
+    },
+    textList:{
+        fontSize:20,
+        color:"white"
+    },
+    listButton:{
+        width:100,
+        height:60,
+        justifyContent:"space-around",
+        alignItems:"center",
+    },
+    listButtonText:{
+        color:"white"
+    },
+    addButton:{
+        width:60,
+        height:60,
+        borderRadius:50,
+        backgroundColor:"green",
+        justifyContent:"center",
+        alignItems:"center"
+    }
+
+});
+export default estilo;
